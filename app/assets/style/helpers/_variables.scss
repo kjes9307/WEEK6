@@ -361,7 +361,7 @@ $prefix:                      $variable-prefix !default;
 // The gradient which is added to components if `$enable-gradients` is `true`
 // This gradient is also added to elements with `.bg-gradient`
 // scss-docs-start variable-gradient
-$gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
+$gradient: linear-gradient(180deg, rgba(#09ACF5, 1), rgba(#62DB54, 1)) !default;
 // scss-docs-end variable-gradient
 
 // Spacing
@@ -435,7 +435,7 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px
+  xxl: 1440px
 ) !default;
 // scss-docs-end grid-breakpoints
 
@@ -453,7 +453,7 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px
+  xxl: 1296px
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -567,22 +567,26 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
+$h0-font-size:                $font-size-base * 3 !default;
 $h1-font-size:                $font-size-base * 2.5 !default;
 $h2-font-size:                $font-size-base * 2 !default;
 $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
-$h6-font-size:                $font-size-base !default;
+$h6-font-size:                $font-size-base * 1.125 !default;
+$h7-font-size:                $font-size-base !default;
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
 $font-sizes: (
+  0: $h0-font-size,
   1: $h1-font-size,
   2: $h2-font-size,
   3: $h3-font-size,
   4: $h4-font-size,
   5: $h5-font-size,
-  6: $h6-font-size
+  6: $h6-font-size,
+  7: $h7-font-size
 ) !default;
 // scss-docs-end font-sizes
 

@@ -50,7 +50,7 @@
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: "Azeret Mono", "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-gradient: linear-gradient(180deg, #09acf5, #62db54);
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
@@ -159,7 +159,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 p {
@@ -680,9 +680,9 @@ progress {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    max-width: 1320px;
+    max-width: 1296px;
   }
 }
 
@@ -1849,7 +1849,7 @@ progress {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .col-xxl {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 0%;
@@ -2296,7 +2296,7 @@ progress {
   }
 }
 
-@media (max-width: 1399.98px) {
+@media (max-width: 1439.98px) {
   .table-responsive-xxl {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -3867,7 +3867,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .dropdown-menu-xxl-start {
     --bs-position: start;
   }
@@ -4738,7 +4738,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .navbar-expand-xxl {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -5860,7 +5860,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .list-group-horizontal-xxl {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -6469,7 +6469,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (max-width: 1399.98px) {
+@media (max-width: 1439.98px) {
   .modal-fullscreen-xxl-down {
     width: 100vw;
     max-width: none;
@@ -7516,7 +7516,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (max-width: 1399.98px) {
+@media (max-width: 1439.98px) {
   .offcanvas-xxl {
     position: fixed;
     bottom: 0;
@@ -7541,14 +7541,14 @@ fieldset:disabled .btn {
   }
 }
 
-@media (max-width: 1399.98px) and (prefers-reduced-motion: reduce) {
+@media (max-width: 1439.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-xxl {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-@media (max-width: 1399.98px) {
+@media (max-width: 1439.98px) {
   .offcanvas-xxl.offcanvas-start {
     top: 0;
     left: 0;
@@ -7593,7 +7593,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .offcanvas-xxl {
     --bs-offcanvas-height: auto;
     --bs-offcanvas-border-width: 0;
@@ -8045,7 +8045,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .sticky-xxl-top {
     position: -webkit-sticky;
     position: sticky;
@@ -9269,6 +9269,10 @@ fieldset:disabled .btn {
   font-family: var(--bs-font-monospace) !important;
 }
 
+.fs-0 {
+  font-size: calc(1.425rem + 2.1vw) !important;
+}
+
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
@@ -9290,6 +9294,10 @@ fieldset:disabled .btn {
 }
 
 .fs-6 {
+  font-size: 1.125rem !important;
+}
+
+.fs-7 {
   font-size: 1rem !important;
 }
 
@@ -12164,7 +12172,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .float-xxl-start {
     float: left !important;
   }
@@ -12791,6 +12799,9 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 1200px) {
+  .fs-0 {
+    font-size: 3rem !important;
+  }
   .fs-1 {
     font-size: 2.5rem !important;
   }
@@ -12843,16 +12854,41 @@ fieldset:disabled .btn {
   }
 }
 
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+.lh-37 {
+  line-height: 37px;
+}
+
+.lh-35 {
+  line-height: 35px;
+}
+
+.lh-29 {
+  line-height: 29px;
+}
+
+.lh-19 {
+  line-height: 19px;
+}
+
+.lh-26 {
+  line-height: 26px;
+}
+
+.lh-40 {
+  line-height: 40px;
+}
+
+.lh-56 {
+  line-height: 56px;
+}
+
+.lh-70 {
+  line-height: 70px;
 }
 /*# sourceMappingURL=index.css.map */

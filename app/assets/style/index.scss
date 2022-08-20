@@ -1,15 +1,12 @@
-// @import "./base/reset";
-@import "./base/customereset";
-@import "./abstracts/variable";
-@import "./abstracts/selfclass";
-// @import "./layout/style";
-// @import "./pages/intro";
-// @import "./pages/product";
-// @import "./components/menu";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
 
-// ul{
-//     border: solid 1px black;
-// }
+
+@import "./base/customereset";
+@import "./abstracts/selfclass";
+
+
 
 
 

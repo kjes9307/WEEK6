@@ -12891,4 +12891,66 @@ img {
 .lh-70 {
   line-height: 70px;
 }
+
+.header-bg {
+  background-color: #2D2D2D;
+}
+
+.icon-size {
+  height: 42px;
+  width: 42px;
+}
+
+@media (max-width: 592px) {
+  .header {
+    position: relative;
+  }
+  .header .toggle-dropdown {
+    position: relative;
+    width: 70%;
+    text-align: right;
+  }
+}
+
+.ham-icon {
+  color: #FFFFFF;
+}
+
+.dropdown {
+  max-height: 0px;
+  display: none;
+  position: absolute;
+  background-color: #2D2D2D;
+  right: 0px;
+  top: 30px;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  z-index: 120;
+  text-align: center;
+}
+
+.dropdown li {
+  list-style: none;
+  border-top: 1px solid #FFFFFF;
+}
+
+.dropdown li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.dropdown li a:hover {
+  color: #f24;
+}
+
+.dropdown li:hover {
+  background-color: #333;
+}
+
+.active {
+  display: block;
+  max-height: 250px;
+}
 /*# sourceMappingURL=index.css.map */

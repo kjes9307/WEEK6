@@ -1,8 +1,30 @@
-
+// replace by bs5 utilty
 // .header{
-
+//     .toggle-dropdown{
+//         // display: none;
+//     }
+//     // .toggle-menu{
+//     //     display: block;
+//     // } 
 // }
-// .footer{
-
-// }
-
+.header-bg{
+    background-color: #2D2D2D;
+}
+.icon-size{
+    height: 42px;
+    width: 42px;
+}
+@media(max-width:592px){
+    .header{
+        position: relative;
+        .toggle-dropdown{
+            // display: block;
+            position: relative;
+            width: 70%;
+            text-align: right;
+        }
+        // .toggle-menu{
+        //     display: none;
+        // } replace by bs5 utilty
+    }
+}

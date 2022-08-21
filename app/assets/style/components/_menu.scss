@@ -8,26 +8,22 @@
     background-color: #2D2D2D;
     right: 0px;
     top: 30px;
-    width: 100%;
+    width: 70%;
     overflow: hidden;
     transition: all 0.8s;
     z-index: 120;
     text-align: center;
     li{
         list-style: none;
-        border-top: 1px solid #FFFFFF;
+        border-bottom: 1px solid #FFFFFF;
         a{
             text-decoration: none;
             color: #FFFFFF;
         }
         a:hover{
-            color: #f24;
-        }
-        &:hover{
-            background-color: #333;
+            color: #0a58ca;
         }
     }
-    
 }
 .active{
     display: block;

@@ -1,13 +1,13 @@
-.swiper {
-    width: 100%;
+.swiper-w-reset{
+    width: unset !important;
 }
-
-.swiper-slide {
+.swiper-item{
     width: 100%;
     text-align: center;
-    flex-shrink: 1 !important;
-    padding: 16px;
+    padding: 16px !important;
+    border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+

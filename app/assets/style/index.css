@@ -13273,6 +13273,11 @@ img {
   color: #62DB54;
 }
 
+.size-80 {
+  font-size: 80px !important;
+  font-variation-settings: 'OPSZ' 48;
+}
+
 .size-50 {
   font-size: 50px !important;
   font-variation-settings: 'OPSZ' 48;
@@ -13788,5 +13793,51 @@ img {
 .btn-size-define {
   height: 42px;
   width: 172px;
+}
+
+.final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px 24px;
+}
+
+.final .btn-white {
+  border: 1px solid #fff;
+  color: #fff;
+  height: 42px;
+  width: 136px;
+}
+
+@media (min-width: 992px) {
+  .final {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 48px;
+  }
+  .final .mt-4 {
+    margin-top: 0px !important;
+  }
+  .final .ml-flex {
+    margin-left: 48px;
+  }
+  .final .ml-btn {
+    margin-left: 96px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

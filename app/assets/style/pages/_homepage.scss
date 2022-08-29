@@ -14,15 +14,7 @@
         @content;
     }
 }
-.home-bg-default{
-    background-color: #1C1C1C;
-}
-.home-bg-black{
-    background-color: #000;
-}
-.home-bg-second{
-    background-color: #2D2D2D;
-}
+
 .home{
     background-image: url("../../assets/images/bg_home_mobile.jpg");
     @include image-set;
@@ -77,96 +69,14 @@
     }
 }
 
-// card distance
-@mixin card-md{
-    @media (min-width:767px){
-        @content;
-    }
-}
-@mixin card-lg{
-    @media (min-width:992px){
-        @content;
-    }
-}
+
 // normal title
 .sub-title-hr{
     width: 50px;
     height: 0px;
     border-bottom: 3px solid #62DB54;
 }
-.card{
-    width: 100%;
-    color: #fff;
-}
-.card-hover:hover{
-    .squareRounded {
-        display: block;
-      }
-}
-.squareRounded {
-    display: none;
-    width: 32px;
-    height: 32px;
-    &-topLeft {
-      border-top: 1px solid #62DB54;
-      border-left: 1px solid #62DB54;
-      border-top-left-radius: 10px;
-    }
-    &-topRight {
-      border-top: 1px solid #62DB54;
-      border-right: 1px solid #62DB54;
-      border-top-right-radius: 10px;
-    }
-    &-bottomLeft {
-      border-bottom: 1px solid #62DB54;
-      border-left: 1px solid #62DB54;
-      border-bottom-left-radius: 10px;
-    }
-    &-bottomRight {
-      border-bottom: 1px solid #62DB54;
-      border-right: 1px solid #62DB54;
-      border-bottom-right-radius: 10px;
-    }
-}
-.detail-area{
-    @include card-md{
-        gap: 24px;
-        .col-md-4{
-            width: 30% !important;
-        }
-        
-    }
-    @include card-lg{
-        .col-lg-3{
-            width: 24% !important;
-        }
-        .col-lg-4{
-            width: 31% !important;
-        }
-        .card-effect{
-            color: #C1C1C1;
-            background-color: #2D2D2D;
-            border: 0px !important;
-            span{
-                color: #C1C1C1;
-                
-            }
-            &:hover{
-                color: #fff;
-                background-color: #1C1C1C;
-                border-radius: 1px;
-                outline: solid #62DB54;
-                border-radius: 12px;
-                span{
-                    @include gradient-y;
-                    background-clip: text;
-                    -webkit-background-clip: text; 
-                    color: transparent;
-                }
-            }
-        }
-    }
-}
+
 .img-size{
     height: 100px;
     width: 100px;

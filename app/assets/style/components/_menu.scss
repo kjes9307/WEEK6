@@ -1,7 +1,7 @@
 .ham-icon {
     color: #62DB54;
 }
-.dropdown {
+.dropdown-self {
     max-height: 0px;
     display: none;
     position: absolute;
@@ -25,7 +25,7 @@
         }
     }
 }
-.active{
+.active-self{
     display: block;
     max-height: 250px;
 }

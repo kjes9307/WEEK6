@@ -13318,6 +13318,10 @@ img {
   background-color: #2D2D2D;
 }
 
+.label-color {
+  color: #C1C1C1;
+}
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -13917,6 +13921,31 @@ header::before {
   }
 }
 
+@media (min-width: 992px) {
+  .card-lg {
+    top: 50%;
+    left: 48px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 10;
+    background-color: #2D2D2D;
+  }
+}
+
+@media (min-width: 992px) {
+  .form-lg {
+    right: 48px;
+    background-color: #1C1C1C;
+  }
+}
+
+@media (min-width: 992px) {
+  .padding-lg {
+    padding-left: 114px;
+    padding-right: 32px;
+  }
+}
+
 .triangle::after {
   content: "";
   position: absolute;
@@ -13932,11 +13961,34 @@ header::before {
   z-index: 10;
 }
 
+@media (min-width: 992px) {
+  .triangle::after {
+    border-color: transparent  transparent transparent #2D2D2D;
+    top: 50%;
+    left: 100.1%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
 .btn-gap {
   gap: 8px;
 }
 
-.btn-outline {
-  border: 1px solid white;
+.btn-gap .col-6 {
+  width: 45%;
+}
+
+.btn-effect:hover {
+  border: 1px solid #62DB54 !important;
+  color: #62DB54;
+}
+
+.btn-size {
+  height: 40px;
+}
+
+.btn-font {
+  color: #C1C1C1;
 }
 /*# sourceMappingURL=index.css.map */

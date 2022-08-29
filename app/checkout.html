@@ -41,10 +41,10 @@
             </div>
         </div>
     </header>
-    <section class="checkout home-bg-black py-4">
+    <section class="checkout home-bg-black pt-4">
         <div class="container-md">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-7 timeline">
+                <div class="col-8 col-md-7 timeline">
                 </div>
             </div>
             <div class="row">
@@ -66,15 +66,14 @@
             </div>
         </div>
     </section>
-    <section class="brand-teacher home-bg-black pt-4">
+    <section class="brand-teacher home-bg-black pt-4 pb-6">
         <div class="container-md">
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="card d-flex flex-column align-items-center home-bg-second py-4 position-relative">
+                    <div class="card d-flex flex-column align-items-center home-bg-second py-4 position-relative card-lg">
                         <div class="card-head text-center">
-                            <img src="./assets/images/teacher01.jpg" class="card-img-top img-size" alt="teacher">
+                            <img src="./assets/images/teacher01.jpg" class="card-img-top img-size border border-primary" alt="teacher">
                         </div>
-                        <h3 class="mt-2 mb-0 fs-7">Belinda</h3>
                         <div class="card-body mt-4 px-5 py-0">
                             <h2 class="card-title fs-5 text-center">基礎前端 - HTML</h2>
                             <h5 class="card-text text-primary fs-7 text-center">前端語言</h5>
@@ -83,69 +82,79 @@
                         <div class="triangle"></div>
                     </div>
                 </div>
-                <div class="col-lg-8 mt-6">
-                    <div class="home-bg-second">
-                        <div class="row justify-content-center align-items-center btn-gap">
+                <div class="col-lg-8 mt-6 mt-lg-0">
+                    <div class="home-bg-second padding-lg position-relative form-lg">
+                        <div class="row justify-content-center align-items-center">
                             <div>
-                                <h3 class="text-center text-white">選擇付款方式</h3>
+                                <h1 class="text-center text-white fs-4 mb-0 mt-4">課程報名</h1>
                             </div>
-                            <button class="col-5 text-center btn btn-dark btn-outline p-3">信用卡付款</button>
-                            <button class="col-5 text-center btn btn-dark btn-outline p-3">超商繳款</button>
-                            <button class="col-5 text-center btn btn-dark btn-outline p-3">ATM轉帳</button>
-                            <button class="col-5 text-center btn btn-dark btn-outline p-3">12期分期付款</button>
                             <div>
-                                <h3 class="text-center text-white">訂單資訊</h3>
+                                <h2 class="text-center text-white fs-6 mb-0 mt-4 mb-3">選擇付款方式</h3>
+                            </div>
+                            <div class="row justify-content-center align-items-center btn-gap">
+                                <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">信用卡付款</button>
+                                <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">超商繳款</button>
+                                <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">ATM轉帳</button>
+                                <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">12期分期付款</button>
+                            </div>
+                            <div>
+                                <h2 class="text-center text-white fs-6 mt-5 mb-3">訂單資訊</h3>
                             </div>
                             <div class="col-11">
-                                <label for="name" class="text-white">姓名</label>
+                                <label for="name" class="label-color">姓名</label>
                             </div>
-                            <div class="col-11">
-                                <input type="text"  id="name" placeholder="請輸入姓名" class="w-100">
+                            <div class="col-11 mt-2">
+                                <input 
+                                    type="text"  
+                                    id="name" 
+                                    placeholder="請輸入姓名" 
+                                    class="border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1"
+                                >
                             </div>
-                            <div class="col-11">
-                                <label for="tel" class="text-white">電話</label>
+                            <div class="col-11 mt-3">
+                                <label for="tel" class="label-color">電話</label>
                             </div>
-                            <div class="col-11">
-                                <input type="text"  id="tel" placeholder="請輸入電話號碼" class="w-100">
+                            <div class="col-11 mt-2">
+                                <input type="text"  id="tel" placeholder="請輸入電話號碼" class="border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1">
                             </div>
-                            <div class="col-11">
-                                <label for="mail" class="text-white">Email</label>
+                            <div class="col-11 mt-3">
+                                <label for="mail" class="label-color">Email</label>
                             </div>
-                            <div class="col-11">
-                                <input type="text"  id="mail" placeholder="請輸入Email" class="w-100">
+                            <div class="col-11 mt-2">
+                                <input type="text"  id="mail" placeholder="請輸入Email" class="border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1">
                             </div>
-                            <div class="col-11">
-                                <label class="text-white">課程</label>
+                            <div class="col-11 mt-3">
+                                <label class="label-color">課程</label>
                             </div>
-                            <div class="col-11">
-                                <div class="dropdown" >
-                                    <button class="dropdown-toggle w-100 d-flex align-items-center justify-content-between" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="col-11 mt-2">
+                                <div class="dropdown " >
+                                    <button class="home-bg-default dropdown-toggle text-white border border-white btn-size px-3 py-2 rounded-1 w-100 d-flex align-items-center justify-content-between" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         10堂50分鐘
                                     </button>
-                                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
-                                      <li><a class="dropdown-item text-left" href="#">10堂40分鐘</a></li>
-                                      <li><a class="dropdown-item text-left" href="#">5堂50分鐘</a></li>
-                                      <li><a class="dropdown-item text-left" href="#">5堂25分鐘</a></li>
+                                    <ul class="dropdown-menu w-100 home-bg-default" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item text-left text-white" href="#">10堂40分鐘</a></li>
+                                      <li><a class="dropdown-item text-left text-white" href="#">5堂50分鐘</a></li>
+                                      <li><a class="dropdown-item text-left text-white" href="#">5堂25分鐘</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-11">
-                                <label for="date" class="text-white">想預約的日期</label>
+                            <div class="col-11 mt-3">
+                                <label for="date" class="label-color">想預約的日期</label>
                             </div>
-                            <div class="col-11">
-                                <input name="inputDate" type="text"  id="date" placeholder="想預約的日期" class="w-100">
+                            <div class="col-11 mt-2">
+                                <input name="inputDate" type="text"  id="date" placeholder="想預約的日期" class="border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1">
                             </div>
-                            <div class="col-11">
-                                <label for="location" class="text-white">上課地點</label>
+                            <div class="col-11 mt-3">
+                                <label for="location" class="label-color">上課地點</label>
                             </div>
-                            <div class="col-11">
-                                <input type="text"  id="location" placeholder="請輸入上課地點" class="w-100">
+                            <div class="col-11 mt-2">
+                                <input type="text"  id="location" placeholder="請輸入上課地點" class="border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1">
                             </div>
-                            <div class="col-11">
-                                <h3 class="text-white">NT 1600</h3>
+                            <div class="col-11 mt-4">
+                                <h3 class="text-white">NT$1600</h3>
                             </div>
-                            <div class="col-11">
-                                <button class="w-100 gradient-x text-white">前往結賬</button>
+                            <div class="col-11 mt-4 mb-4">
+                                <button class="w-100 gradient-x text-white btn-size px-3 py-2 rounded-2">前往結賬</button>
                             </div>
                         </div> 
                     </div>
@@ -154,7 +163,7 @@
             </div>
         </div>
     </section>
-    <footer class="layout-bg mt-3">
+    <footer class="layout-bg">
         <div class="footer container-md text-center footer-font fs-7 py-sm-5">
             Coding Home © 2022 All Rights Reserved
         </div>

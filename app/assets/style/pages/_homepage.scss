@@ -65,7 +65,7 @@
     height: 0px;
     border-bottom: 3px solid #62DB54;
     @media (min-width:992px){
-        left: 0% !important;
+        left:8% !important;
     }
 }
 
@@ -164,4 +164,9 @@
 }
 
   
-
+.brand-bg-display{
+    @include image-set;
+    @media(min-width: 992px){
+        background-image: url("../../assets/images/bg_share.jpg");
+    }
+}

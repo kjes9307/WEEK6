@@ -13760,7 +13760,7 @@ header::before {
 
 @media (min-width: 992px) {
   .sub-hr {
-    left: 0% !important;
+    left: 8% !important;
   }
 }
 
@@ -13918,6 +13918,18 @@ header::before {
   }
   .final .ml-btn {
     margin-left: 96px;
+  }
+}
+
+.brand-bg-display {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .brand-bg-display {
+    background-image: url("../../assets/images/bg_share.jpg");
   }
 }
 

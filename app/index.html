@@ -17,10 +17,10 @@
     <script type="text/javascript">
         window.onload = () =>{     
             var icon = document.getElementsByClassName('ham-icon')[0]
-            var menu = document.getElementsByClassName('dropdown')[0]
+            var menu = document.getElementsByClassName('dropdown-self')[0]
             icon.onclick = (e)=>{
                 e.preventDefault()
-                menu.classList.toggle('active')
+                menu.classList.toggle('active-self')
             }  
         }
     </script>
@@ -39,7 +39,7 @@
                         <a href="#" class="ham-icon">
                             <i class="fas fa-bars fa-2x"></i>
                           </a>
-                        <ul class="dropdown px-0">
+                        <ul class="dropdown-self px-0">
                             <li><a href="#">首頁</a></li>
                             <li><a href="#">課程介紹</a></li>
                             <li><a href="#">登入</a></li>

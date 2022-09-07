@@ -10781,7 +10781,6 @@ header::before {
   background-size: cover; }
   @media (max-width: 576px) {
     .ad-1 {
-      width: 360px !important;
       height: 263px !important; } }
   @media (min-width: 1440px) {
     .ad-1 {
@@ -10797,7 +10796,6 @@ header::before {
   background-size: cover; }
   @media (max-width: 576px) {
     .ad-2 {
-      width: 360px !important;
       height: 263px !important; } }
   @media (min-width: 1440px) {
     .ad-2 {
@@ -10813,7 +10811,6 @@ header::before {
   background-size: cover; }
   @media (max-width: 576px) {
     .ad-3 {
-      width: 360px !important;
       height: 263px !important; } }
   @media (min-width: 1440px) {
     .ad-3 {
@@ -10829,7 +10826,6 @@ header::before {
   background-size: cover; }
   @media (max-width: 576px) {
     .ad-4 {
-      width: 360px !important;
       height: 263px !important; } }
   @media (min-width: 1440px) {
     .ad-4 {

@@ -89,45 +89,48 @@
                                 <h1 class="text-center text-white fs-4 mb-0 mt-4">課程報名</h1>
                             </div>
                             <div>
-                                <h2 class="text-center text-white fs-6 mb-0 mt-4 mb-3">選擇付款方式</h3>
+                                <h2 class="text-center text-lg-start text-white fs-6 mb-0 mt-4 mb-3">選擇付款方式</h3>
                             </div>
-                            <div class="row justify-content-center align-items-center btn-gap">
-                                <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">信用卡付款</button>
-                                <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">超商繳款</button>
-                                <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">ATM轉帳</button>
-                                <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">12期分期付款</button>
+                            <div class="row">
+                                <div class="d-flex flex-wrap justify-content-center align-items-center d-lg-none btn-gap">
+                                    <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">信用卡付款</button>
+                                    <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">超商繳款</button>
+                                    <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">ATM轉帳</button>
+                                    <button class="col-6 text-center btn btn-dark border border-white btn-effect p-3">12期分期付款</button>
+                                </div>
+                                <div class="d-none d-lg-block px-0">
+                                    <button class="text-center btn btn-dark border border-white btn-effect p-3 ">信用卡付款</button>
+                                    <button class="text-center btn btn-dark border border-white btn-effect p-3 ms-xl-3">超商繳款</button>
+                                    <button class="text-center btn btn-dark border border-white btn-effect p-3 ms-xl-3">ATM轉帳</button>
+                                    <button class="text-center btn btn-dark border border-white btn-effect p-3 ms-xl-3">12期分期付款</button>
+                                </div>
                             </div>
                             <div>
-                                <h2 class="text-center text-white fs-6 mt-5 mb-3">訂單資訊</h3>
+                                <h2 class="text-center text-lg-start text-white fs-6 mt-5 mb-3">訂單資訊</h3>
                             </div>
-                            <div class="col-11">
+                            <div class="col-11 col-lg-6">
                                 <label for="name" class="label-color">姓名</label>
-                            </div>
-                            <div class="col-11 mt-2">
                                 <input 
                                     type="text"  
                                     id="name" 
                                     placeholder="請輸入姓名" 
-                                    class="border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1"
+                                    class="mt-2 border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1"
                                 >
                             </div>
-                            <div class="col-11 mt-3">
-                                <label for="tel" class="label-color">電話</label>
+                            <div class="col-11 col-lg-6">
+                                <label for="tel" class="label-color mt-3 mt-lg-0">電話</label>
+                                <input type="tel"  id="tel" placeholder="請輸入電話號碼" class=" mt-2 border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1">
+
                             </div>
-                            <div class="col-11 mt-2">
-                                <input type="tel"  id="tel" placeholder="請輸入電話號碼" class="border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1">
-                            </div>
-                            <div class="col-11 mt-3">
+                            <div class="col-11 col-lg-12  mt-3">
                                 <label for="mail" class="label-color">Email</label>
                             </div>
-                            <div class="col-11 mt-2">
+                            <div class="col-11 col-lg-12  mt-2">
                                 <input type="email"  id="mail" placeholder="請輸入Email" class="border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1">
                             </div>
-                            <div class="col-11 mt-3">
+                            <div class="col-11 col-lg-6 mt-3">
                                 <label class="label-color">課程</label>
-                            </div>
-                            <div class="col-11 mt-2">
-                                <div class="dropdown " >
+                                <div class="dropdown mt-2" >
                                     <button class="home-bg-default dropdown-toggle text-white border border-white btn-size px-3 py-2 rounded-1 w-100 d-flex align-items-center justify-content-between" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         10堂50分鐘
                                     </button>
@@ -138,24 +141,21 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-11 mt-3">
+                            <div class="col-11 col-lg-6 mt-3">
                                 <label for="date" class="label-color">想預約的日期</label>
+                                <input name="inputDate" type="text"  id="date" placeholder="想預約的日期" class=" mt-2 border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1">
                             </div>
-                            <div class="col-11 mt-2">
-                                <input name="inputDate" type="text"  id="date" placeholder="想預約的日期" class="border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1">
-                            </div>
-                            <div class="col-11 mt-3">
+                            <div class="col-11 col-lg-12  mt-3">
                                 <label for="location" class="label-color">上課地點</label>
                             </div>
-                            <div class="col-11 mt-2">
+                            <div class="col-11 col-lg-12  mt-2">
                                 <input type="text"  id="location" placeholder="請輸入上課地點" class="border border-white btn-size px-3 py-2 w-100 home-bg-default label-color rounded-1">
                             </div>
-                            <div class="col-11 mt-4">
+                            <div class="col-11 col-lg-12 mt-4 d-lg-flex align-items-center justify-content-between">
                                 <h3 class="text-white">NT$1600</h3>
+                                <button class="w-100 w-xl mt-4 mb-4 gradient-x text-center text-white btn-size px-3 py-2 rounded-2">前往結賬</button>
                             </div>
-                            <div class="col-11 mt-4 mb-4">
-                                <button class="w-100 gradient-x text-white btn-size px-3 py-2 rounded-2">前往結賬</button>
-                            </div>
+                        
                         </div> 
                     </div>
                     

@@ -2,20 +2,27 @@
     color: #62DB54;
 }
 .dropdown-self {
+    text-align: center;
+    background-color: #2D2D2D;
+
     max-height: 0px;
+    width: 100vw;
+
     display: none;
     position: absolute;
-    background-color: #2D2D2D;
+    
     right: 0px;
-    top: 30px;
-    width: 70%;
+    top: 48px;
+    
     overflow: hidden;
     transition: all 0.8s;
+    transform: translateX(3%);
     z-index: 120;
-    text-align: center;
+    
+    padding-top: 24px;
+    padding-bottom: 24px;
     li{
         list-style: none;
-        border-bottom: 1px solid #FFFFFF;
         a{
             text-decoration: none;
             color: #FFFFFF;

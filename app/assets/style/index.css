@@ -13409,23 +13409,26 @@ header::before {
 }
 
 .dropdown-self {
+  text-align: center;
+  background-color: #2D2D2D;
   max-height: 0px;
+  width: 100vw;
   display: none;
   position: absolute;
-  background-color: #2D2D2D;
   right: 0px;
-  top: 30px;
-  width: 70%;
+  top: 48px;
   overflow: hidden;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
+  -webkit-transform: translateX(3%);
+          transform: translateX(3%);
   z-index: 120;
-  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .dropdown-self li {
   list-style: none;
-  border-bottom: 1px solid #FFFFFF;
 }
 
 .dropdown-self li a {
@@ -14008,7 +14011,7 @@ header::before {
 }
 
 .btn-gap .col-6 {
-  width: 45%;
+  width: 47%;
 }
 
 .btn-effect:hover {
@@ -14017,10 +14020,16 @@ header::before {
 }
 
 .btn-size {
-  height: 40px;
+  height: 45px;
 }
 
 .btn-font {
   color: #C1C1C1;
+}
+
+@media (min-width: 992px) {
+  .w-xl {
+    width: 168px !important;
+  }
 }
 /*# sourceMappingURL=index.css.map */

@@ -11,6 +11,9 @@
     @media (min-width:992px){
         right: 48px;
         background-color: #1C1C1C;
+        // .col-lg-6{
+        //     width: 45% !important;
+        // }
     } 
 }
 .padding-lg{
@@ -43,7 +46,7 @@
 .btn-gap{
     gap:8px;
     .col-6{
-        width: 45%;
+        width: 47%;
     }
 }
 .btn-effect{
@@ -53,8 +56,14 @@
     }
 }
 .btn-size{
-    height: 40px;
+    height: 45px;
 }
 .btn-font{
     color: #C1C1C1;
+}
+
+.w-xl{
+    @media (min-width:992px) {
+        width: 168px !important;
+    }
 }

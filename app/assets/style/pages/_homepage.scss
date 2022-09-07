@@ -86,7 +86,6 @@
 }
 @mixin adsize{
     @media(max-width: 576px){
-        width: 360px !important;
         height: 263px !important;
     }
     @media(min-width: 1440px){

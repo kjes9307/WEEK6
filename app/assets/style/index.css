@@ -49,7 +49,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Azeret Mono", "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, #09acf5, #62db54);
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -13322,6 +13322,10 @@ img {
   color: #C1C1C1;
 }
 
+.font-azeret {
+  font-family: 'Azeret Mono';
+}
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -13335,6 +13339,18 @@ img {
   background-size: cover;
   height: 42px;
   width: 174px;
+}
+
+.header .logo a {
+  text-indent: 101%;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.click:hover {
+  color: #62DB54 !important;
 }
 
 header::before {
@@ -13661,11 +13677,14 @@ header::before {
   .detail-area .col-md-4 {
     width: 30% !important;
   }
+  .detail-area .col-md-6 {
+    width: 48% !important;
+  }
 }
 
 @media (min-width: 992px) {
   .detail-area .col-lg-3 {
-    width: 24% !important;
+    width: 23% !important;
   }
   .detail-area .col-lg-4 {
     width: 31% !important;
@@ -13760,7 +13779,8 @@ header::before {
 
 @media (min-width: 992px) {
   .sub-hr {
-    left: 8% !important;
+    left: 9% !important;
+    bottom: 35% !important;
   }
 }
 

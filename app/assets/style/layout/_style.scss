@@ -10,8 +10,18 @@
         background-size: cover;
         height: 42px;
         width: 174px; 
+        & a{
+            text-indent: 101%;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            padding-bottom: 20px;
+        }
     }
     
+}
+.click:hover{
+    color: #62DB54 !important;  
 }
 header::before{
     content: "";

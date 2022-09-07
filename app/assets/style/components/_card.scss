@@ -9,7 +9,11 @@
         @content;
     }
 }
-
+@mixin card-xl{
+    @media (min-width:1200px){
+        @content;
+    }
+}
 .card{
     width: 100%;
     color: #fff;
@@ -50,18 +54,21 @@
         .col-md-4{
             width: 30% !important;
         }
+        .col-md-6{
+            width: 48% !important;
+        }
         
     }
     @include card-lg{
         .col-lg-3{
-            width: 24% !important;
+            width: 23% !important;
         }
         .col-lg-4{
             width: 31% !important;
         }
         .card-effect{
             color: #C1C1C1;
-            background-color: #2D2D2D;
+            background-color: #2D2D2D ;
             border: 0px !important;
             span{
                 color: #C1C1C1;

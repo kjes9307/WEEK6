@@ -67,3 +67,8 @@
         width: 168px !important;
     }
 }
+.font-translate-x{
+    @media (min-width:992px) {
+    transform: translateX(-7%);
+    }
+}

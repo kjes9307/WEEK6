@@ -14032,4 +14032,11 @@ header::before {
     width: 168px !important;
   }
 }
+
+@media (min-width: 992px) {
+  .font-translate-x {
+    -webkit-transform: translateX(-7%);
+            transform: translateX(-7%);
+  }
+}
 /*# sourceMappingURL=index.css.map */

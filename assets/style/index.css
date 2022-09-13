@@ -10499,6 +10499,8 @@ header::before {
       color: #FFFFFF; }
     .dropdown-self li a:hover {
       color: #0a58ca; }
+  .dropdown-self li:hover {
+    background-color: #333; }
 
 .active-self {
   display: block;

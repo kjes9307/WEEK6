@@ -28,7 +28,7 @@
             color: #FFFFFF;
         }
         a:hover{
-            color: #0a58ca;
+            color: #f24;
         }
     }
     li:hover{
@@ -38,4 +38,10 @@
 .active-self{
     display: block;
     max-height: 250px;
+}
+
+.nav-hover{
+    &:hover{
+        color: #f24 !important;
+    }
 }
